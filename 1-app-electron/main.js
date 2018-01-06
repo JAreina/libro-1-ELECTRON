@@ -1,14 +1,14 @@
 // app module maneja el ciclo de vida de la app
 // BrowserWindow maneja la ventana de la app
 
-const {
+const{
     app,
     BrowserWindow
 } = require('electron');
 
 let win;
 
-const appUrl = `file: //+${__dirname}index.html`
+const appUrl = `file://${__dirname}/index.html`
 
 function createElectronShell() {
     win = new BrowserWindow({
