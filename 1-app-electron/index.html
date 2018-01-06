@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <base href="/">
+            <title>Hello Electron</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style type="text/css">
+                #banner {
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-family: Verdana;
+                    margin: 10px;
+                }
+
+                # shellInfo {
+                    margin: 10px;
+                    line-height: 2;
+                    font-size: 14px;
+                    font-family: verdana;
+                }
+
+            </style>
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                            const {
+                                node,
+                                chrome,
+                                electron
+                            } = process.versions;
+                            document.querySelector('#nodeVersion').innerHTML = node;
+                            document.querySelector('#chromeVersion).innerHTML = chrome;
+                                document.querySelector('#electronVersion).innerHTML = electron;
+                                });
+
+            </script>
+        </head>
+
+        <body>
+            <div id="banner">Electron is up and running</div>
+            <div id="shellInfo">
+                <div>Node : <span id="nodeVersion"></span></div>
+                <div>Chrome : <span id="chromVersion"></span>div>
+                    <div>Electron : <span id="electronVersion"></span>div>
+                    </div>
+        </body>
+        This is a simple HT

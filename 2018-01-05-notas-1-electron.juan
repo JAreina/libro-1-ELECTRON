@@ -1,0 +1,58 @@
+
+
+ELECTRON
+
+
+framework de github , para desarrolllar aplicaciones de escritorio
+con html,css, js
+
+chromium + node
+
+la app corre en un chromium minimo controllada por node
+
+
+empaqueta una particular versión de chromium y node en la app
+
+
+accede al sistema operativo
+
+
+-- usa npm modulos y apis node
+
+
+ejemplos de app hechas con electron: Editor Atom , visual studio code
+
+
+
+
+
+instalar electrosn
+_________________
+
+npm install -g electron
+
+
+------------------------------------
+
+
+
+
+PRIMERA APP
+
+     /app
+          package.json
+          main.js
+          index.html
+
+
+npm init
+
+
+
+Entrada de la app el archivo main.js
+
+
+
+
+
+
