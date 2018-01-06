@@ -52,6 +52,10 @@ npm init
 Entrada de la app el archivo main.js
 
 
+Correr app:    con electron instalado globalmente: $   electron .
+
+----------------------------------------------------------------------------
+
 
 
 

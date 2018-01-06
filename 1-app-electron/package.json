@@ -13,6 +13,7 @@
   "author": "JAreina",
   "license": "MIT",
   "dependencies": {
-    "electron": "^1.7.10"
+    "electron": "^1.7.10",
+    "marked": "^0.3.9"
   }
 }

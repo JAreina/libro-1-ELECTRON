@@ -20,7 +20,7 @@
                     margin: 10px;
                 }
 
-                # shellInfo {
+                #shellInfo {
                     margin: 10px;
                     line-height: 2;
                     font-size: 14px;
@@ -28,6 +28,9 @@
                 }
 
             </style>
+            <link rel="stylesheet" href="style.css">
+            
+            <link rel="stylesheet" href="github-markdown.css" />
             <script>
                 document.addEventListener('DOMContentLoaded', () => {
                             const {
@@ -50,5 +53,13 @@
                 <div>Chrome : <span id="chromeVersion"></span>
                     <div>Electron : <span id="electronVersion"></span>
                     </div>
+
+
+
+                    <div id="viewer">
+                    </div>
+                    <script type="text/javascript">
+                    require('./markdown-processor');
+                    </script>         
         </body>
             </html>
